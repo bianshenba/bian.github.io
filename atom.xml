@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bianshenba.github.io/"/>
-  <updated>2016-11-17T11:16:14.386Z</updated>
+  <updated>2016-11-17T11:56:27.588Z</updated>
   <id>https://bianshenba.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa.html"/>
     <id>https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa.html</id>
     <published>2016-11-17T06:00:22.000Z</published>
-    <updated>2016-11-17T11:16:14.386Z</updated>
+    <updated>2016-11-17T11:56:27.588Z</updated>
     
     <content type="html"><![CDATA[<p>我搭建Hexo的步骤是参照的 <a href="http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">点我查看</a></p>
 <p>先记录下Hexo几个常用的命令。</p>
@@ -56,7 +56,7 @@
 <p><code>[我是链接](https://bian.github.io)</code></p>
 <p>图片的话格式为<code>![](图片链接地址)</code>，就是在链接的格式前面加上<code>!</code></p>
 <p><strong>列表</strong></p>
-<p>列表在文字前面加上<code>-</code>或者<code>1. ``2. ``3.</code>就行了。（加<code>*</code>也可以） </p>
+<p>列表在文字前面加上<code>-</code>或者<code>1. 2. 3.</code>就行了。（加<code>*</code>也可以） </p>
 ]]></content>
     
     <summary type="html">
