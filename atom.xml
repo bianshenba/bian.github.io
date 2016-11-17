@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ᕕ(ᐛ)ᕗ变身!</title>
+  <subtitle>一个记录自己的博客而已</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://bian.github.io/"/>
+  <updated>2016-11-17T08:28:40.684Z</updated>
+  <id>https://bian.github.io/</id>
+  
+  <author>
+    <name>变变变变没了</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo常用命令和Markdown编辑语法</title>
+    <link href="https://bian.github.io/archives/hexo-mingling-markdown-yufa/"/>
+    <id>https://bian.github.io/archives/hexo-mingling-markdown-yufa/</id>
+    <published>2016-11-17T06:00:22.000Z</published>
+    <updated>2016-11-17T08:28:40.684Z</updated>
+    
+    <content type="html"><![CDATA[<p>我搭建Hexo的步骤是参照的 <a href="http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">点我查看</a></p>
+<p>先记录下Hexo几个常用的命令。</p>
+<p>发现原来官网有指令，<a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="external">官方指令</a></p>
+<p><code>hexo clean</code> 清除缓存文件 (db.json) 和已生成的静态文件 (public)。</p>
+<p><code>hexo g -d</code>  新建文件并上传</p>
+<p>Markdown语法参见<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">简书</a>‘</p>
+<p><strong>标题</strong></p>
+<ul>
+<li><code># 一级标题</code></li>
+<li><code>## 二级标题</code></li>
+<li><code>### 三级标题</code></li>
+<li><code>#### 四级标题</code></li>
+<li><code>##### 五级标题</code></li>
+<li><code>###### 六级标题</code></li>
+</ul>
+<p><strong>引用文字</strong></p>
+<p>在需要引用的文字前面加上<code>&gt;</code>即可。</p>
+<blockquote>
+<p>注意要有空格哦。哇哈哈</p>
+</blockquote>
+<p><strong>粗体和斜体</strong></p>
+<p>粗体用两个<code>**</code>号，斜体用一个<code>*</code>，如下：</p>
+<blockquote>
+<p><code>**粗体**</code></p>
+<p><code>*斜体*</code></p>
+</blockquote>
+<p><strong>代码</strong></p>
+<p>直接两个英文的`括起来就可以了。</p>
+<p><strong>链接和图片</strong></p>
+<p>链接的格式为<code>[显示文本](链接地址)</code>,例如：</p>
+<p><code>[我是链接](https://bian.github.io)</code></p>
+<p>图片的话格式为<code>![](图片链接地址)</code>，就是在链接的格式前面加上<code>!</code></p>
+<p><strong>列表</strong></p>
+<p>列表在文字前面加上<code>-</code>或者<code>1. ``2. ``3.</code>就行了。（加<code>*</code>也可以） </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我搭建Hexo的步骤是参照的 &lt;a href=&quot;http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github
+    
+    </summary>
+    
+    
+      <category term="Hexo命令" scheme="https://bian.github.io/tags/Hexo%E5%91%BD%E4%BB%A4/"/>
+    
+      <category term="MD语法" scheme="https://bian.github.io/tags/MD%E8%AF%AD%E6%B3%95/"/>
+    
+      <category term="Markdown语法" scheme="https://bian.github.io/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bian.github.io/archives/hello-world/"/>
+    <id>https://bian.github.io/archives/hello-world/</id>
+    <published>2016-11-17T03:21:15.907Z</published>
+    <updated>2016-11-17T05:36:50.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>时隔多年，辗转反侧，终究觉得自己还是应该有一个自己的个人博客才对。</p>
+<p>经过一上午的研究，搭建了这个Hexo博客。</p>
+<p>本身对Hexo不熟悉，只不过发现很多人现在都在用这个系统，而且网速似乎飞快。我的理解就是因为他是纯静态的吧，反正感觉比WordPress和Typecho都要快。而且不需要什么数据库，还不需要服务器。</p>
+<p>直接托管在GitHub上面就可以当成博客访问了。而且Hexo的工作模式感觉也比较适合我现在对博客的要求。</p>
+<p>去他妈的SEO，去他妹的众多功能。我只需要有点想法的时候找一个地方记录一下而已。</p>
+<p>话说Hexo的功能貌似很多我都还没研究透彻，管他呢，先把文章写出来再说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时隔多年，辗转反侧，终究觉得自己还是应该有一个自己的个人博客才对。&lt;/p&gt;
+&lt;p&gt;经过一上午的研究，搭建了这个Hexo博客。&lt;/p&gt;
+&lt;p&gt;本身对Hexo不熟悉，只不过发现很多人现在都在用这个系统，而且网速似乎飞快。我的理解就是因为他是纯静态的吧，反正感觉比WordPres
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
