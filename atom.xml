@@ -4,9 +4,9 @@
   <subtitle>一个记录自己的博客而已</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://bian.github.io/"/>
+  <link href="https://bianshenba.github.io/"/>
   <updated>2016-11-17T08:28:40.684Z</updated>
-  <id>https://bian.github.io/</id>
+  <id>https://bianshenba.github.io/</id>
   
   <author>
     <name>变变变变没了</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hexo常用命令和Markdown编辑语法</title>
-    <link href="https://bian.github.io/archives/hexo-mingling-markdown-yufa/"/>
-    <id>https://bian.github.io/archives/hexo-mingling-markdown-yufa/</id>
+    <link href="https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa/"/>
+    <id>https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa/</id>
     <published>2016-11-17T06:00:22.000Z</published>
     <updated>2016-11-17T08:28:40.684Z</updated>
     
@@ -65,18 +65,18 @@
     </summary>
     
     
-      <category term="Hexo命令" scheme="https://bian.github.io/tags/Hexo%E5%91%BD%E4%BB%A4/"/>
+      <category term="Hexo命令" scheme="https://bianshenba.github.io/tags/Hexo%E5%91%BD%E4%BB%A4/"/>
     
-      <category term="MD语法" scheme="https://bian.github.io/tags/MD%E8%AF%AD%E6%B3%95/"/>
+      <category term="MD语法" scheme="https://bianshenba.github.io/tags/MD%E8%AF%AD%E6%B3%95/"/>
     
-      <category term="Markdown语法" scheme="https://bian.github.io/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <category term="Markdown语法" scheme="https://bianshenba.github.io/tags/Markdown%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://bian.github.io/archives/hello-world/"/>
-    <id>https://bian.github.io/archives/hello-world/</id>
+    <link href="https://bianshenba.github.io/archives/hello-world/"/>
+    <id>https://bianshenba.github.io/archives/hello-world/</id>
     <published>2016-11-17T03:21:15.907Z</published>
     <updated>2016-11-17T05:36:50.923Z</updated>
     
