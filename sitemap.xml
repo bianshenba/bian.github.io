@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa/</loc>
+    <loc>https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa.html</loc>
     
-    <lastmod>2016-11-17T08:28:40.684Z</lastmod>
+    <lastmod>2016-11-17T11:16:14.386Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://bianshenba.github.io/archives/hello-world.html</loc>
+    
+    <lastmod>2016-11-17T11:15:38.706Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://bianshenba.github.io/tags/index.html</loc>
     
     <lastmod>2016-11-17T06:28:49.583Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bianshenba.github.io/archives/hello-world/</loc>
-    
-    <lastmod>2016-11-17T05:36:50.923Z</lastmod>
     
   </url>
   
