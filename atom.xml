@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bianshenba.github.io/"/>
-  <updated>2016-11-17T11:56:27.588Z</updated>
+  <updated>2016-11-18T18:10:33.228Z</updated>
   <id>https://bianshenba.github.io/</id>
   
   <author>
@@ -16,11 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>WordPress4注册提示“您的密码重设链接无效，请在下方请求新链接”解决办法</title>
+    <link href="https://bianshenba.github.io/archives/wordpress-new-user-mail.html"/>
+    <id>https://bianshenba.github.io/archives/wordpress-new-user-mail.html</id>
+    <published>2016-11-18T18:07:43.000Z</published>
+    <updated>2016-11-18T18:10:33.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>不知道WordPress的开发者是在干什么，关于WordPress注册邮件格式错误问题好多年了，都没解决。</p>
+<p>备份下。WordPress 4.6.1注册邮件提示“您的密码重设链接无效，请在下方请求新链接”，解决办法是修改/wp-includes/pluggable.php文件。</p>
+<p>第1750行代码</p>
+<p><code>$message .= &#39;点击后面链接设置密码 &#39; . network_site_url(&quot;wp-login.php?action=rp&amp;key=$key&amp;login=&quot; . rawurlencode($user-&gt;user_login), &#39;login&#39;) . &quot;\r\n\r\n&quot;;</code></p>
+<p>改成上面的就行了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不知道WordPress的开发者是在干什么，关于WordPress注册邮件格式错误问题好多年了，都没解决。&lt;/p&gt;
+&lt;p&gt;备份下。WordPress 4.6.1注册邮件提示“您的密码重设链接无效，请在下方请求新链接”，解决办法是修改/wp-includes/pluggabl
+    
+    </summary>
+    
+    
+      <category term="WordPress" scheme="https://bianshenba.github.io/tags/WordPress/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo常用命令和Markdown编辑语法</title>
     <link href="https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa.html"/>
     <id>https://bianshenba.github.io/archives/hexo-mingling-markdown-yufa.html</id>
     <published>2016-11-17T06:00:22.000Z</published>
-    <updated>2016-11-17T11:56:27.588Z</updated>
+    <updated>2016-11-17T12:10:27.244Z</updated>
     
     <content type="html"><![CDATA[<p>我搭建Hexo的步骤是参照的 <a href="http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">点我查看</a></p>
 <p>先记录下Hexo几个常用的命令。</p>
@@ -28,7 +54,7 @@
 <a id="more"></a>
 <p><code>hexo clean</code> 清除缓存文件 (db.json) 和已生成的静态文件 (public)。</p>
 <p><code>hexo g -d</code>  新建文件并上传</p>
-<p>Markdown语法参见<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">简书</a>‘</p>
+<p>Markdown语法参见<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">简书</a></p>
 <p><strong>标题</strong></p>
 <ul>
 <li><code># 一级标题</code></li>
